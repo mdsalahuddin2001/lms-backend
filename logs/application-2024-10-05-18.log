@@ -1,0 +1,93 @@
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-05 18:36:48"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-05 18:37:55"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-05 18:37:55"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-05 18:37:56"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-05 18:37:56"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-05 18:37:56"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-05 18:37:56"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-05 18:37:56"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-05 18:37:56"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-05 18:37:56"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-05 18:37:56"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-05 18:37:56"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-05 18:37:56"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-05 18:37:56"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-05 18:38:01"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-05 18:38:01"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-05 18:38:02"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-05 18:38:02"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-05 18:38:02"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-05 18:38:02"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-05 18:38:02"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-05 18:38:02"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-05 18:38:02"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-05 18:38:02"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-05 18:38:02"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-05 18:38:02"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-05 18:38:02"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-05 18:38:06"}
+{"body":{"email":"ferdoushasan@gmail.com","name":"Ferdous Hasan","password":"12345678F"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-05 18:38:06"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"create(): Failed to create model Email is already taken","name":"Email is already taken","stack":"Email is already taken: Email is already taken\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:13:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:28:20","timestamp":"2024-10-05 18:38:06"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Email is already taken","name":"Failed to create model","statusCode":500,"timestamp":"2024-10-05 18:38:06"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":500,"timestamp":"2024-10-05 18:38:06"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Email is already taken Email is already taken","name":"Failed to create model","stack":"Failed to create model: Email is already taken\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:27:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:28:20","timestamp":"2024-10-05 18:38:06"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-05 18:38:07"}
+{"body":{"email":"ferdoushasan@gmail.com","name":"Ferdous Hasan","password":"12345678F"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-05 18:38:07"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"create(): Failed to create model Email is already taken","name":"Email is already taken","stack":"Email is already taken: Email is already taken\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:13:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:28:20","timestamp":"2024-10-05 18:38:07"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Email is already taken","name":"Failed to create model","statusCode":500,"timestamp":"2024-10-05 18:38:07"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":500,"timestamp":"2024-10-05 18:38:07"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Email is already taken Email is already taken","name":"Failed to create model","stack":"Failed to create model: Email is already taken\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:27:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:28:20","timestamp":"2024-10-05 18:38:07"}
+{"body":"{\n  \"name\": \"Ferdous Hasan\",\n  \"email\":\"ferdoushasan@gmail.com\",\n\n \n}","expose":true,"isTrusted":true,"level":"error","message":"Expected double-quoted property name in JSON at position 68","status":400,"timestamp":"2024-10-05 18:38:11","type":"entity.parse.failed"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Expected double-quoted property name in JSON at position 68 Expected double-quoted property name in JSON at position 68","name":"SyntaxError","stack":"SyntaxError: Expected double-quoted property name in JSON at position 68\n    at JSON.parse (<anonymous>)\n    at parse (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/body-parser@1.20.3/node_modules/body-parser/lib/types/json.js:92:19)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/body-parser@1.20.3/node_modules/body-parser/lib/read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/raw-body@2.5.2/node_modules/raw-body/index.js:238:16)\n    at done (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/raw-body@2.5.2/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/raw-body@2.5.2/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-10-05 18:38:11"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-05 18:38:18"}
+{"body":{"email":"ferdoushasan@gmail.com","name":"Ferdous Hasan"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-05 18:38:18"}
+{"errors":["\"password\" is required"],"level":"error","message":"POST /api/v1/auth/register Validation failed","timestamp":"2024-10-05 18:38:18"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":400,"timestamp":"2024-10-05 18:38:18"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"create(): Failed to create model Email is already taken","name":"Email is already taken","stack":"Email is already taken: Email is already taken\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:13:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:28:20","timestamp":"2024-10-05 18:38:18"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Email is already taken","name":"Failed to create model","statusCode":500,"timestamp":"2024-10-05 18:38:18"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client","name":"Error","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/response.js:278:15)\n    at errorResponse (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/libraries/common/sendResponse.js:5:33)\n    at errorHandlerMiddleware (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/error-handling/index.js:31:3)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/server.js:73:5\n    at Layer.handle_error (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:71:5)\n    at trim_prefix (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/index.js:326:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/index.js:286:9","timestamp":"2024-10-05 18:38:18"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-05 18:38:21"}
+{"body":{"email":"ferdoushasan@gmail.com","name":"Ferdous Hasan"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-05 18:38:21"}
+{"errors":["\"password\" is required"],"level":"error","message":"POST /api/v1/auth/register Validation failed","timestamp":"2024-10-05 18:38:21"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":400,"timestamp":"2024-10-05 18:38:21"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"create(): Failed to create model Email is already taken","name":"Email is already taken","stack":"Email is already taken: Email is already taken\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:13:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:28:20","timestamp":"2024-10-05 18:38:21"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Email is already taken","name":"Failed to create model","statusCode":500,"timestamp":"2024-10-05 18:38:21"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client","name":"Error","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/response.js:278:15)\n    at errorResponse (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/libraries/common/sendResponse.js:5:33)\n    at errorHandlerMiddleware (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/error-handling/index.js:31:3)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/server.js:73:5\n    at Layer.handle_error (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:71:5)\n    at trim_prefix (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/index.js:326:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/index.js:286:9","timestamp":"2024-10-05 18:38:21"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-05 18:52:46"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-05 18:52:46"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-05 18:52:47"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-05 18:52:47"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-05 18:52:47"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-05 18:52:47"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-05 18:52:47"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-05 18:52:47"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-05 18:52:47"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-05 18:52:47"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-05 18:52:47"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-05 18:52:47"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-05 18:52:47"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-05 18:53:02"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-05 18:53:02"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-05 18:53:03"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-05 18:53:03"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-05 18:53:03"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-05 18:53:03"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-05 18:53:03"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-05 18:53:03"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-05 18:53:03"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-05 18:53:03"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-05 18:53:03"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-05 18:53:03"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-05 18:53:03"}

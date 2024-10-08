@@ -1,0 +1,4 @@
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2024-10-06 19:17:35"}
+{"body":{"email":"ferdousboss@gmail.com","password":"12345678F"},"level":"info","message":"POST /api/v1/auth/login","params":{},"query":{},"timestamp":"2024-10-06 19:17:35"}
+{"email":"ferdousboss@gmail.com","level":"info","message":"getByEmail(): model fetched","timestamp":"2024-10-06 19:17:35"}
+{"level":"info","message":"POST /api/v1/auth/login","statusCode":200,"timestamp":"2024-10-06 19:17:35"}

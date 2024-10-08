@@ -1,0 +1,432 @@
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2024-10-06 10:27:33"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2024-10-06 10:27:40"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2024-10-06 10:28:01"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:34:08"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:34:42"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:34:43"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:36:19"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:36:19"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:36:20"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:36:20"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:36:20"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:36:20"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:36:20"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:36:20"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:36:20"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:36:20"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:36:20"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:36:20"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:36:20"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:37:03"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:37:08"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:37:08"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:37:08"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:37:08"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:37:08"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:37:08"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:37:08"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:37:08"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:37:08"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:37:08"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:37:08"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:37:09"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:37:09"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:37:36"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:37:36"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:37:37"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:37:37"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:37:37"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:37:37"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:37:37"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:37:37"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:37:37"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:37:37"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:37:37"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:37:37"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:37:37"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:37:47"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:37:56"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:37:57"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:38:04"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:38:04"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:38:04"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:38:04"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:38:04"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:38:04"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:38:04"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:38:04"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:38:04"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:38:04"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:38:04"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:38:05"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:38:05"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:38:12"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:40:00"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:40:58"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:40:58"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:40:59"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:40:59"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:40:59"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:40:59"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:40:59"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:40:59"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:40:59"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:40:59"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:40:59"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:40:59"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:40:59"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:41:05"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:41:06"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:41:15"}
+{"level":"info","message":"POST /api/v1/auth/login","timestamp":"2024-10-06 10:41:18"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-06 10:41:22"}
+{"body":{"email":"ferdoushasan@gmail.com","name":"Ferdous Hasan","password":"12345678F"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-06 10:41:22"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-06 10:41:22"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:42:13"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:42:13"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:42:14"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:42:14"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:42:14"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:42:14"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:42:14"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:42:14"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:42:14"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:42:14"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:42:14"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:42:14"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:42:14"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:42:22"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-06 10:43:30"}
+{"body":{"email":"ferdoushasan@gmail.com","name":"Ferdous Hasan","password":"12345678F"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-06 10:43:30"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-06 10:43:30"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-06 10:43:33"}
+{"body":{"email":"ferdoushasan@gmail.com","name":"Ferdous Hasan","password":"12345678F"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-06 10:43:33"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-06 10:43:33"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:46:54"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:46:55"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:47:05"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:47:12"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:47:12"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:47:13"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:47:13"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:47:13"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:47:13"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:47:13"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:47:13"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:47:13"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:47:13"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:47:13"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:47:13"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:47:13"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:49:28"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:49:28"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:49:29"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:49:29"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:49:29"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:49:29"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:49:29"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:49:29"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:49:29"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:49:29"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:49:29"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:49:29"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:49:29"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-06 10:49:33"}
+{"body":{"email":"ferdoushasan@gmail.com","name":"Ferdous Hasan","password":"12345678F"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-06 10:49:33"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-06 10:49:33"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:50:35"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:50:38"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:50:38"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:50:39"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:50:39"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:50:39"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:50:39"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:50:39"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:50:39"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:50:39"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:50:39"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:50:39"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:50:39"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:50:39"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:50:56"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:50:58"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:50:59"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:52:43"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:53:12"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:53:28"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:53:59"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:54:20"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:54:45"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:54:45"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:54:46"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:54:46"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:54:46"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:54:46"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:54:46"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:54:46"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:54:46"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:54:46"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:54:46"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:54:46"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:54:46"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:54:59"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:54:59"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:55:00"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:55:00"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:55:00"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:55:00"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:55:00"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:55:00"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:55:00"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:55:00"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:55:00"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:55:00"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:55:00"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-06 10:55:03"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-06 10:55:03"}
