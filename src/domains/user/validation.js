@@ -3,6 +3,16 @@ const Joi = require("joi");
 const mongoose = require("mongoose");
 const { password } = require("../../libraries/common/validation");
 
+const getUsersSchema = Joi.object({
+  search: Joi.string().allow(""),
+  role: Joi.string().valid("student", "instructor", "admin"),
+  sortBy: Joi.string()
+    .valid("firstName", "lastName", "email", "createdAt")
+    .default("createdAt"),
+  sortOrder: Joi.string().valid("asc", "desc").default("desc"),
+  page: Joi.number().integer().min(1).default(1),
+  limit: Joi.number().integer().min(1).max(100).default(10),
+});
 const createUserSchema = Joi.object({
   email: Joi.string().required().email(),
   password: Joi.string().required().custom(password),
@@ -42,6 +52,7 @@ const idSchema = Joi.object().keys({
 });
 
 module.exports = {
+  getUsersSchema,
   createUserSchema,
   updateUserSchema,
   idSchema,

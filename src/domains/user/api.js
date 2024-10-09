@@ -6,11 +6,13 @@ const {
   getUserById,
   updateUser,
   deleteUser,
+  getUsers,
 } = require("./service");
 const {
   createUserSchema,
   updateUserSchema,
   idSchema,
+  getUsersSchema,
 } = require("./validation");
 const { validateRequest } = require("../../middlewares/request-validate");
 const { logRequest } = require("../../middlewares/log");
@@ -19,6 +21,16 @@ const asyncHandler = require("../../middlewares/async-handler");
 const routes = () => {
   const router = express.Router();
   logger.info(`Setting up routes for user`);
+
+  router.get(
+    "/",
+    logRequest({}),
+    validateRequest({ schema: getUsersSchema, isQuery: true }),
+    asyncHandler(async (req, res) => {
+      const result = await getUsers(req.query);
+      res.status(200).json(result);
+    })
+  );
 
   router.post(
     "/",

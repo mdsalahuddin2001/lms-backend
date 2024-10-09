@@ -1,6 +1,27 @@
 const logger = require("../../libraries/log/logger");
 const { AppError } = require("../../libraries/error-handling/AppError");
 const User = require("./schema");
+const { createDomainGetter } = require("../../libraries/domain/getter-factory");
+const Joi = require("joi");
+
+const { getter: getUsers, validationSchema: getUsersSchema } =
+  createDomainGetter({
+    model: User,
+    modelName: "User",
+    searchFields: ["firstName", "lastName", "email"],
+    allowedFilters: [
+      {
+        name: "role",
+        schema: Joi.string().valid("student", "instructor", "admin"),
+      },
+    ],
+    allowedSortFields: ["firstName", "lastName", "email", "createdAt"],
+    transformResult: (users) =>
+      users.map((user) => ({
+        ...user,
+        fullName: `${user.firstName} ${user.lastName}`,
+      })),
+  });
 
 const createUser = async (userData) => {
   try {
@@ -52,6 +73,7 @@ const deleteUser = async (id) => {
 };
 
 module.exports = {
+  getUsers,
   createUser,
   getUserById,
   getUserByEmail,

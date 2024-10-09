@@ -1,0 +1,419 @@
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:10:03"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:10:11"}
+{"body":{"email":"example@example.com","firstName":"John","lastName":"Doe","password":"Password123!","role":"student"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:10:11"}
+{"errors":["\"role\" is not allowed"],"level":"error","message":"POST /api/v1/auth/register Validation failed","timestamp":"2024-10-09 17:10:11"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":400,"timestamp":"2024-10-09 17:10:11"}
+{"level":"error","message":"register(): Registration failed User is not defined","stack":"ReferenceError: User is not defined\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:11:26)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:26\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/async-handler/index.js:4:19\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/route.js:149:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/request-validate/index.js:46:5\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/route.js:149:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/log/index.js:37:5\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)","timestamp":"2024-10-09 17:10:11"}
+{"level":"error","message":"ReferenceError User is not defined","stack":"ReferenceError: User is not defined\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:11:26)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:26\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/async-handler/index.js:4:19\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/route.js:149:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/request-validate/index.js:46:5\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/route.js:149:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/log/index.js:37:5\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)","timestamp":"2024-10-09 17:10:11"}
+{"isTrusted":true,"level":"error","message":"User is not defined","timestamp":"2024-10-09 17:10:11"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client","name":"Error","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/response.js:794:10)\n    at ServerResponse.send (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/response.js:174:12)\n    at ServerResponse.json (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/response.js:278:15)\n    at errorResponse (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/libraries/common/sendResponse.js:5:33)\n    at errorHandlerMiddleware (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/error-handling/index.js:40:3)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/server.js:73:5\n    at Layer.handle_error (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:71:5)\n    at trim_prefix (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/index.js:326:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/index.js:286:9","timestamp":"2024-10-09 17:10:11"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:10:21"}
+{"body":{"email":"example@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:10:21"}
+{"level":"error","message":"register(): Registration failed User is not defined","stack":"ReferenceError: User is not defined\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:11:26)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:26\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/async-handler/index.js:4:19\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/route.js:149:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/request-validate/index.js:46:5\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/route.js:149:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/log/index.js:37:5\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)","timestamp":"2024-10-09 17:10:21"}
+{"level":"error","message":"ReferenceError User is not defined","stack":"ReferenceError: User is not defined\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:11:26)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:26\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/async-handler/index.js:4:19\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/route.js:149:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/request-validate/index.js:46:5\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/route.js:149:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/log/index.js:37:5\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)","timestamp":"2024-10-09 17:10:21"}
+{"isTrusted":true,"level":"error","message":"User is not defined","timestamp":"2024-10-09 17:10:21"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":500,"timestamp":"2024-10-09 17:10:21"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"User is not defined User is not defined","name":"ReferenceError","stack":"ReferenceError: User is not defined\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:11:26)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:26\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/async-handler/index.js:4:19\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/route.js:149:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/request-validate/index.js:46:5\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/route.js:149:13)\n    at /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/middlewares/log/index.js:37:5\n    at Layer.handle [as handle_request] (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/node_modules/.pnpm/express@4.21.0/node_modules/express/lib/router/layer.js:95:5)","timestamp":"2024-10-09 17:10:21"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:10:53"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:10:53"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:10:54"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:10:54"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:10:54"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:10:54"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:10:54"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:10:54"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:10:54"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:10:54"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:10:54"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:10:54"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:10:54"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:11:09"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:12:10"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:12:10"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:12:11"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:12:11"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:12:11"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:12:11"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:12:11"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:12:11"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:12:11"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:12:11"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:12:11"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:12:11"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:12:11"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:12:24"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:12:24"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:12:24"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:12:25"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:12:25"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:12:25"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:12:25"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:12:25"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:12:25"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:12:25"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:12:25"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:12:25"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:12:25"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:12:48"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:12:50"}
+{"body":{"email":"test@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:12:50"}
+{"level":"error","message":"register(): Registration failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at sendVerificationEmail (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/libraries/emails/sendEmails.js:25:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:30:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:12:51"}
+{"level":"error","message":"ReferenceError logger is not defined","stack":"ReferenceError: logger is not defined\n    at sendVerificationEmail (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/libraries/emails/sendEmails.js:25:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:30:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:12:51"}
+{"isTrusted":true,"level":"error","message":"logger is not defined","timestamp":"2024-10-09 17:12:51"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":500,"timestamp":"2024-10-09 17:12:51"}
+{"HTTPStatus":500,"cause":null,"isTrusted":true,"level":"error","message":"logger is not defined logger is not defined","name":"ReferenceError","stack":"ReferenceError: logger is not defined\n    at sendVerificationEmail (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/libraries/emails/sendEmails.js:25:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:30:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:12:51"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:13:06"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:13:06"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:13:06"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:13:06"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:13:06"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:13:06"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:13:06"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:13:06"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:13:06"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:13:06"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:13:06"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:13:07"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:13:07"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:13:09"}
+{"body":{"email":"test@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:13:09"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"register(): Registration failed Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:13:09"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Registration Error Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:13:09"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered","name":"Registration Error","statusCode":400,"timestamp":"2024-10-09 17:13:09"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":400,"timestamp":"2024-10-09 17:13:09"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:13:09"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:13:18"}
+{"body":{"email":"md@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:13:18"}
+{"level":"info","message":"sendVerificationEmail(): Verification email sent","timestamp":"2024-10-09 17:13:19","userId":"6706654e267e3ea032b6524d"}
+{"level":"info","message":"register(): User registered successfully","timestamp":"2024-10-09 17:13:19","userId":"6706654e267e3ea032b6524d"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-09 17:13:19"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:14:44"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:14:44"}
+{"level":"error","message":"App received SIGINT event, try to gracefully close the server","timestamp":"2024-10-09 17:14:51"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:14:55"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:14:55"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:14:56"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:14:56"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:14:56"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:14:56"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:14:56"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:14:56"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:14:56"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:14:56"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:14:56"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:14:56"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:14:56"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:15:16"}
+{"body":{"email":"md@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:15:16"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"register(): Registration failed Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:15:16"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Registration Error Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:15:16"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered","name":"Registration Error","statusCode":400,"timestamp":"2024-10-09 17:15:16"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":400,"timestamp":"2024-10-09 17:15:16"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:15:16"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:15:24"}
+{"body":{"email":"ms@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:15:24"}
+{"level":"info","message":"sendVerificationEmail(): Verification email sent","timestamp":"2024-10-09 17:15:25","userId":"670665ccc55c8c7f3051fe31"}
+{"level":"info","message":"register(): User registered successfully","timestamp":"2024-10-09 17:15:25","userId":"670665ccc55c8c7f3051fe31"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-09 17:15:25"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:23:11"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:23:11"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:23:12"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:23:12"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:23:12"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:23:12"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:23:12"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:23:12"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:23:12"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:23:12"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:23:12"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:23:12"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:23:12"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:23:21"}
+{"body":{"email":"ms@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:23:21"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"register(): Registration failed Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:23:21"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Registration Error Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:23:21"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered","name":"Registration Error","statusCode":400,"timestamp":"2024-10-09 17:23:21"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":400,"timestamp":"2024-10-09 17:23:21"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:23:21"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:23:27"}
+{"body":{"email":"msd@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:23:27"}
+{"level":"info","message":"sendVerificationEmail(): Verification email sent","timestamp":"2024-10-09 17:23:28","userId":"670667afd4cec02d4440bbc0"}
+{"level":"info","message":"register(): User registered successfully","timestamp":"2024-10-09 17:23:28","userId":"670667afd4cec02d4440bbc0"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-09 17:23:28"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:25:01"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:25:02"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:25:15"}
+{"body":{"email":"msd@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:25:15"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"register(): Registration failed Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:25:15"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Registration Error Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:25:15"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered","name":"Registration Error","statusCode":400,"timestamp":"2024-10-09 17:25:15"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":400,"timestamp":"2024-10-09 17:25:15"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:25:15"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:25:23"}
+{"body":{"email":"msds@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:25:23"}
+{"level":"info","message":"sendVerificationEmail(): Verification email sent","timestamp":"2024-10-09 17:25:24","userId":"6706682355834c1e633ce871"}
+{"level":"info","message":"register(): User registered successfully","timestamp":"2024-10-09 17:25:24","userId":"6706682355834c1e633ce871"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-09 17:25:24"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:25:38"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:25:39"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:25:49"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:26:13"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:26:26"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:26:48"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:26:55"}
+{"body":{"email":"msds@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:26:55"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"register(): Registration failed Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:26:55"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Registration Error Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:26:55"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered","name":"Registration Error","statusCode":400,"timestamp":"2024-10-09 17:26:55"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":400,"timestamp":"2024-10-09 17:26:55"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:26:55"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:27:00"}
+{"body":{"email":"msfds@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:27:00"}
+{"level":"info","message":"sendVerificationEmail(): Verification email sent","timestamp":"2024-10-09 17:27:00","userId":"67066884a21a7bbf4fbd87da"}
+{"level":"info","message":"register(): User registered successfully","timestamp":"2024-10-09 17:27:00","userId":"67066884a21a7bbf4fbd87da"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-09 17:27:00"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:27:35"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:27:35"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:27:36"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:27:36"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:27:36"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:27:36"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:27:36"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:27:36"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:27:36"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:27:36"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:27:36"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:27:36"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:27:36"}
+{"level":"error","message":"App received SIGINT event, try to gracefully close the server","timestamp":"2024-10-09 17:27:37"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:27:40"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:27:42"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:27:42"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:27:43"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:27:43"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:27:43"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:27:43"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:27:43"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:27:43"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:27:43"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:27:43"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:27:43"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:27:43"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:27:43"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:27:58"}
+{"body":{"email":"msfds@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:27:58"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"register(): Registration failed Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:27:58"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Registration Error Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:27:58"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered","name":"Registration Error","statusCode":400,"timestamp":"2024-10-09 17:27:58"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":400,"timestamp":"2024-10-09 17:27:58"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:27:58"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:28:04"}
+{"body":{"email":"msads@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:28:04"}
+{"level":"info","message":"sendVerificationEmail(): Verification email sent","timestamp":"2024-10-09 17:28:06","userId":"670668c4b2f7d023deeb00c0"}
+{"level":"info","message":"register(): User registered successfully","timestamp":"2024-10-09 17:28:06","userId":"670668c4b2f7d023deeb00c0"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-09 17:28:06"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:30:03"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:30:03"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:30:04"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:30:04"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:30:04"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:30:04"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:30:04"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:30:04"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:30:04"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:30:04"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:30:04"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:30:04"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:30:04"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:30:24"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:30:24"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:30:25"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:30:25"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:30:25"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:30:25"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:30:25"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:30:25"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:30:25"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:30:25"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:30:25"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:30:25"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:30:25"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:30:27"}
+{"body":{"email":"msads@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:30:27"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"register(): Registration failed Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:30:27"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Registration Error Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:30:27"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered","name":"Registration Error","statusCode":400,"timestamp":"2024-10-09 17:30:27"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":400,"timestamp":"2024-10-09 17:30:27"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:30:27"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:30:32"}
+{"body":{"email":"msadfs@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:30:32"}
+{"level":"info","message":"sendVerificationEmail(): Verification email sent","timestamp":"2024-10-09 17:30:34","userId":"670669581e8542b941825c85"}
+{"level":"info","message":"register(): User registered successfully","timestamp":"2024-10-09 17:30:34","userId":"670669581e8542b941825c85"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-09 17:30:34"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:30:59"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:30:59"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:31:00"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:31:00"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:31:00"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:31:00"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:31:00"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:31:00"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:31:00"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:31:00"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:31:00"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:31:00"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:31:00"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:31:01"}
+{"body":{"email":"msadfs@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:31:01"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"register(): Registration failed Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:31:01"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Registration Error Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:31:01"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered","name":"Registration Error","statusCode":400,"timestamp":"2024-10-09 17:31:01"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":400,"timestamp":"2024-10-09 17:31:01"}
+{"HTTPStatus":400,"cause":null,"isTrusted":true,"level":"error","message":"Email already registered Email already registered","name":"Registration Error","stack":"Registration Error: Email already registered\n    at register (/home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/service.js:17:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /home/mdsalahuddin/Desktop/Learning/learning-management-system/server/src/domains/auth/api.js:35:20","timestamp":"2024-10-09 17:31:01"}
+{"level":"info","message":"POST /api/v1/auth/register","timestamp":"2024-10-09 17:31:06"}
+{"body":{"email":"msafdfs@example.com","firstName":"John","lastName":"Doe","password":"Password123!"},"level":"info","message":"POST /api/v1/auth/register","params":{},"query":{},"timestamp":"2024-10-09 17:31:06"}
+{"level":"info","message":"sendVerificationEmail(): Verification email sent","timestamp":"2024-10-09 17:31:08","userId":"6706697abd5fe06c48f54a57"}
+{"level":"info","message":"register(): User registered successfully","timestamp":"2024-10-09 17:31:08","userId":"6706697abd5fe06c48f54a57"}
+{"level":"info","message":"POST /api/v1/auth/register","statusCode":201,"timestamp":"2024-10-09 17:31:08"}
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 17:32:39"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 17:32:39"}
