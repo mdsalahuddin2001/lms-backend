@@ -1,24 +1,34 @@
-// external imports
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-/**
- * Common properties for all of the collections
- * createdAt, updatedAt, isDeleted
- */
-
-const baseSchema = new mongoose.Schema({
+const baseSchema = {
   createdAt: {
     type: Date,
-    default: new Date(),
-    index: true,
+    default: Date.now,
   },
   updatedAt: {
     type: Date,
-    default: new Date(),
-    index: true,
+    default: Date.now,
   },
-});
+  isDeleted: {
+    type: Boolean,
+    default: false,
+  },
+};
+
+const baseSchemaOptions = {
+  timestamps: true,
+  toJSON: {
+    virtuals: true,
+    transform: function (doc, ret) {
+      ret.id = ret._id;
+      delete ret._id;
+      delete ret.__v;
+      return ret;
+    },
+  },
+};
 
 module.exports = {
   baseSchema,
+  baseSchemaOptions,
 };

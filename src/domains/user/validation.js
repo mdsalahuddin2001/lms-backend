@@ -1,47 +1,34 @@
+// src/domains/user/validation.js
 const Joi = require("joi");
 const mongoose = require("mongoose");
-const { password, objectId } = require("../../libraries/common/validation");
+const { password } = require("../../libraries/common/validation");
 
-const createSchema = Joi.object().keys({
+const createUserSchema = Joi.object({
   email: Joi.string().required().email(),
   password: Joi.string().required().custom(password),
-  name: Joi.string().required(),
+  firstName: Joi.string().required(),
+  lastName: Joi.string().required(),
+  role: Joi.string().valid("student", "instructor", "admin"),
+  profilePicture: Joi.string(),
+  bio: Joi.string(),
+  socialLinks: Joi.object({
+    google: Joi.string(),
+    facebook: Joi.string(),
+    linkedin: Joi.string(),
+  }),
 });
 
-const searchSchema = {
-  query: Joi.object().keys({
-    name: Joi.string(),
-    role: Joi.string(),
-    sortBy: Joi.string(),
-    limit: Joi.number().integer(),
-    page: Joi.number().integer(),
+const updateUserSchema = Joi.object({
+  firstName: Joi.string(),
+  lastName: Joi.string(),
+  profilePicture: Joi.string(),
+  bio: Joi.string(),
+  socialLinks: Joi.object({
+    google: Joi.string(),
+    facebook: Joi.string(),
+    linkedin: Joi.string(),
   }),
-};
-
-const getOneSchema = {
-  params: Joi.object().keys({
-    userId: Joi.string().custom(objectId),
-  }),
-};
-
-const updateSchema = {
-  params: Joi.object().keys({
-    userId: Joi.required().custom(objectId),
-  }),
-  body: Joi.object()
-    .keys({
-      email: Joi.string().email(),
-      password: Joi.string().custom(password),
-      name: Joi.string(),
-    })
-    .min(1),
-};
-
-const deleteSchema = {
-  params: Joi.object().keys({
-    userId: Joi.string().custom(objectId),
-  }),
-};
+});
 
 const idSchema = Joi.object().keys({
   id: Joi.string()
@@ -55,10 +42,7 @@ const idSchema = Joi.object().keys({
 });
 
 module.exports = {
-  createSchema,
-  updateSchema,
-  searchSchema,
-  getOneSchema,
-  deleteSchema,
+  createUserSchema,
+  updateUserSchema,
   idSchema,
 };

@@ -1,0 +1,13 @@
+{"level":"info","message":"Loading and validating config for the first time...","timestamp":"2024-10-09 11:22:13"}
+{"level":"info","message":"Config loaded and validated","timestamp":"2024-10-09 11:22:13"}
+{"level":"info","message":"Starting web server...","timestamp":"2024-10-09 11:22:14"}
+{"level":"info","message":"Express middlewares are set up","timestamp":"2024-10-09 11:22:14"}
+{"level":"info","message":"Defining routes...","timestamp":"2024-10-09 11:22:14"}
+{"level":"info","message":"Setting up routes for model","timestamp":"2024-10-09 11:22:14"}
+{"level":"info","message":"Setting up routes for user","timestamp":"2024-10-09 11:22:14"}
+{"level":"info","message":"Routes defined","timestamp":"2024-10-09 11:22:14"}
+{"level":"info","message":"Server is about to listen to port 5000","timestamp":"2024-10-09 11:22:14"}
+{"level":"info","message":"Server is running on :::5000","timestamp":"2024-10-09 11:22:14"}
+{"level":"info","message":"Connecting to MongoDB...","timestamp":"2024-10-09 11:22:14"}
+{"level":"info","message":"MongoDB connection is open","timestamp":"2024-10-09 11:22:14"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-10-09 11:22:14"}

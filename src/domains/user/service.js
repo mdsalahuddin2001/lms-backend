@@ -1,89 +1,60 @@
 const logger = require("../../libraries/log/logger");
-
-const Model = require("./schema");
 const { AppError } = require("../../libraries/error-handling/AppError");
+const User = require("./schema");
 
-const model = "User";
-
-const create = async (data) => {
+const createUser = async (userData) => {
   try {
-    const item = new Model(data);
-    const saved = await item.save();
-    logger.info(`create(): model created`, {
-      id: saved._id,
-    });
-    return saved;
+    const user = new User(userData);
+    await user.save();
+    logger.info(`createUser(): User created`, { id: user._id });
+    return user;
   } catch (error) {
-    logger.error(`create(): Failed to create model`, error);
-    throw new AppError(`Failed to create model`, error.message);
+    logger.error(`createUser(): Failed to create user`, error);
+    throw new AppError("Failed to create user", error.message, 400);
   }
 };
 
-const search = async (query) => {
+const getUserById = async (id) => {
   try {
-    const { keyword } = query ?? {};
-    const filter = {};
-    if (keyword) {
-      filter.or = [
-        { name: { regex: keyword, options: "i" } },
-        { description: { regex: keyword, options: "i" } },
-      ];
-    }
-    const items = await Model.find(filter);
-    logger.info("search(): filter and count", {
-      filter,
-      count: items.length,
-    });
-    return items;
+    const user = await User.findById(id);
+    logger.info(`getUserById(): User fetched`, { id });
+    return user;
   } catch (error) {
-    logger.error(`search(): Failed to search model`, error);
-    throw new AppError(`Failed to search model`, error.message, 400);
+    logger.error(`getUserById(): Failed to get user`, error);
+    throw new AppError("Failed to get user", error.message);
   }
 };
 
-const getById = async (id) => {
-  try {
-    const item = await Model.findById(id);
-    logger.info(`getById(): model fetched`, { id });
-    return item;
-  } catch (error) {
-    logger.error(`getById(): Failed to get model`, error);
-    throw new AppError(`Failed to get model`, error.message);
-  }
-};
-const getByEmail = async (email) => {
-  const item = await Model.findOne({ email });
-  logger.info(`getByEmail(): model fetched`, { email });
-  return item;
+const getUserByEmail = async (email) => {
+  return User.findOne({ email });
 };
 
-const updateById = async (id, data) => {
+const updateUser = async (id, updateData) => {
   try {
-    const item = await Model.findByIdAndUpdate(id, data, { new: true });
-    logger.info(`updateById(): model updated`, { id });
-    return item;
+    const user = await User.findByIdAndUpdate(id, updateData, { new: true });
+    logger.info(`updateUser(): User updated`, { id });
+    return user;
   } catch (error) {
-    logger.error(`updateById(): Failed to update model`, error);
-    throw new AppError(`Failed to update model`, error.message);
+    logger.error(`updateUser(): Failed to update user`, error);
+    throw new AppError("Failed to update user", error.message);
   }
 };
 
-const deleteById = async (id) => {
+const deleteUser = async (id) => {
   try {
-    await Model.findByIdAndDelete(id);
-    logger.info(`deleteById(): model deleted`, { id });
+    await User.findByIdAndUpdate(id, { isDeleted: true });
+    logger.info(`deleteUser(): User marked as deleted`, { id });
     return true;
   } catch (error) {
-    logger.error(`deleteById(): Failed to delete model`, error);
-    throw new AppError(`Failed to delete model`, error.message);
+    logger.error(`deleteUser(): Failed to delete user`, error);
+    throw new AppError("Failed to delete user", error.message);
   }
 };
 
 module.exports = {
-  create,
-  search,
-  getById,
-  getByEmail,
-  updateById,
-  deleteById,
+  createUser,
+  getUserById,
+  getUserByEmail,
+  updateUser,
+  deleteUser,
 };
